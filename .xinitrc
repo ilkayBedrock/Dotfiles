@@ -1,0 +1,1 @@
+setxkbmap us -variant colemak_dh_iso & xrandr --output LVDS1 --primary --mode 1366x768 --pos 0x0 --output VGA2 --mode 1024x768 --pos 1366x0 & feh --bg-fill ~/Dotfiles/wall.jpg & dunst & picom & polybar main & xsetroot -solid black & exec dbus-run-session sxwm
